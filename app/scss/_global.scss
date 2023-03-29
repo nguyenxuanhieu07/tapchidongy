@@ -1,0 +1,28 @@
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: $black;
+    font-weight: 700;
+    &:hover{
+        text-decoration: none;
+        color: $a_hover_menu;
+    }
+}
+span{
+    a{
+        font-size: 18px;
+    }
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    &:hover{
+        opacity: 0.8;
+    }
+}
